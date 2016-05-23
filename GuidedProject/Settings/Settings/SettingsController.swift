@@ -31,3 +31,11 @@ class SettingsController {
         setting.isSet = isOn
     }
 }
+
+
+
+
+
+
+
+
