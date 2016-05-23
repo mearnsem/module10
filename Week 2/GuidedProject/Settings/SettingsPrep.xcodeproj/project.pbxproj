@@ -11,6 +11,10 @@
 		0228DEF91CE96F350094EEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0228DEF71CE96F350094EEBF /* Main.storyboard */; };
 		0228DEFB1CE96F350094EEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0228DEFA1CE96F350094EEBF /* Assets.xcassets */; };
 		0228DEFE1CE96F350094EEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0228DEFC1CE96F350094EEBF /* LaunchScreen.storyboard */; };
+		407261F91CF36A6E00A0344D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407261F81CF36A6E00A0344D /* SettingsViewController.swift */; };
+		407261FB1CF36A8700A0344D /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407261FA1CF36A8700A0344D /* SettingTableViewCell.swift */; };
+		407261FD1CF36D7000A0344D /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407261FC1CF36D7000A0344D /* Setting.swift */; };
+		407261FF1CF36FC600A0344D /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407261FE1CF36FC600A0344D /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		0228DEFA1CE96F350094EEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0228DEFD1CE96F350094EEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0228DEFF1CE96F350094EEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407261F81CF36A6E00A0344D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		407261FA1CF36A8700A0344D /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		407261FC1CF36D7000A0344D /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		407261FE1CF36FC600A0344D /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 		0228DEF21CE96F350094EEBF /* SettingsPrep */ = {
 			isa = PBXGroup;
 			children = (
-				0228DEF31CE96F350094EEBF /* AppDelegate.swift */,
 				0228DEF71CE96F350094EEBF /* Main.storyboard */,
+				407261FC1CF36D7000A0344D /* Setting.swift */,
+				407261FE1CF36FC600A0344D /* SettingsController.swift */,
+				407261FA1CF36A8700A0344D /* SettingTableViewCell.swift */,
+				407261F81CF36A6E00A0344D /* SettingsViewController.swift */,
 				0228DEFA1CE96F350094EEBF /* Assets.xcassets */,
+				0228DEF31CE96F350094EEBF /* AppDelegate.swift */,
 				0228DEFC1CE96F350094EEBF /* LaunchScreen.storyboard */,
 				0228DEFF1CE96F350094EEBF /* Info.plist */,
 			);
@@ -132,7 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407261FB1CF36A8700A0344D /* SettingTableViewCell.swift in Sources */,
+				407261FF1CF36FC600A0344D /* SettingsController.swift in Sources */,
 				0228DEF41CE96F350094EEBF /* AppDelegate.swift in Sources */,
+				407261FD1CF36D7000A0344D /* Setting.swift in Sources */,
+				407261F91CF36A6E00A0344D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
